@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Indian Recipes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fdfdfd;
+    }
+
+    header {
+      background-color: #2e5d5b;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      background-color: #fff;
+      padding: 10px 20px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #f7f7f5;
+    }
+
+    .hero h2 {
+      font-size: 28px;
+      color: #333;
+    }
+
+    .recipes-section {
+      padding: 20px;
+    }
+
+    .recipes-section h3 {
+      margin-bottom: 30px;
+      font-size: 24px;
+      color: #333;
+      text-align: center; /* Center alignment added */
+    }
+
+    .recipes-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Equal spacing horizontally */
+      gap: 30px; /* Equal space between cards */
+    }
+
+    .recipe-card {
+      width: 180px; /* Fixed size for consistency */
+      text-align: center;
+      background-color: white;
+      border: 1px solid #eee;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+
+    .recipe-card:hover {
+      transform: scale(1.03);
+    }
+
+    .recipe-card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .recipe-card h4 {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Recipes</a>
+    <a href="#">About</a>
+    <a href="#">🔍</a>
+  </nav>
+
+  <header>
+     Recipes for foodies
+  </header>
+
+  <section class="hero">
+    <h2>Authentic Indian Recipes For The Modern Kitchen</h2>
+  </section>
+
+  <main class="recipes-section">
+    <h3>Popular Recipes</h3>
+    <div class="recipes-grid">
+      <a href="chana_masala.html" class="recipe-card">
+        <img src="chana masala.jpg" alt="Chana Masala">
+        <h4>Chana Masala</h4>
+      </a>
+      <a href="upma.html" class="recipe-card">
+        <img src="upma.jpg" alt="Upma">
+        <h4>Upma Recipe</h4>
+      </a>
+      <a href="malai_kofta.html" class="recipe-card">
+        <img src="malai kofta.jpg" alt="Malai Kofta">
+        <h4>Malai Kofta Recipe</h4>
+      </a>
+      <a href="dal_makhani.html" class="recipe-card">
+        <img src="dal makhani.jpg" alt="Dal Makhani">
+        <h4>Dal Makhani Recipe</h4>
+      </a>
+    </div>
+  </main>
+
+</body>
+</html>
